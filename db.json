@@ -1,9 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "projects": [
+        {
+            "id": 1,
+            "name": "Elaboração de trabalho acadêmico",
+            "date": "2024-08-10",
+            "content": "Pesquisar sobre o tema proposto, elaborar o texto seguindo as normas da ABNT, revisar e corrigir erros gramaticais e de formatação.",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "name": "Preparação para exame final",
+            "date": "2024-07-25",
+            "content": "Revisar todos os conteúdos do semestre, resolver exercícios e provas anteriores, fazer resumos e mapas mentais dos principais tópicos.",
+            "completed": false
+        },
+        {
+            "id": 3,
+            "name": "Participação em projeto de pesquisa",
+            "date": "2024-09-05",
+            "content": "Coletar dados conforme o plano de pesquisa, analisar resultados obtidos, redigir relatório científico e apresentar os achados em congresso acadêmico.",
+            "completed": true
+        }
+    ]
 }
